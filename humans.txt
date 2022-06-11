@@ -1,0 +1,25 @@
+/* Josué Cuevas - https://josuecuevas.com */
+
+#TEAM 
+
+Designer & Developer:  Josué Cuevas
+Contact: hola [at] josuecuevas.com
+Github: https://github.com/JosueCuevas
+Twitter: @josuecuevs
+Location: Oaxaca, Mexico
+
+#TECHNOLOGY
+
+##  Software
+
+  - Visual Studio Code
+  - Git + Github
+
+## Resources
+
+https://jonmircha.com/
+https://utopia.fyi/
+https://fonts.googleapis.com
+
+
+

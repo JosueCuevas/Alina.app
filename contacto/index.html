@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#a01c32">
+  <meta property="og:type" content="web-app">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="alina.app">
+  <!--  -->
+  <meta property="og:title" content="alina.app | Contacto">
+  <meta property="og:description"
+    content="En esta sección encontrarás un formulario para enviar tus comentarios y contactar al desarrollador de alina.app">
+  <meta property="og:image" content="https://alina.netlify.app/assets/banner.png">
+  <meta property="og:url" content="https://alina.netlify.app/contacto/">
+  <meta content="https://alina.netlify.app/contacto/" property="twtter:url">
+  <meta content="https://alina.netlify.app/assets/banner.png" property="twitter:image">
+  <meta name="twitter:title" property="og:title" contet="alina.app | Contacto ">
+  <meta
+    content="En esta sección encontrarás un formulario para enviar tus comentarios y contactar al desarrollador de alina.app"
+    name="twtter:description" property="og:description">
+  <meta name="description"
+    content="En esta sección encontrarás un formulario para enviar tus comentarios y contactar al desarrollador de alina.app">
+  <link rel="canonical" href="https://alina.netlify.app/contacto/">
+  <!--  -->
+  <link rel="preload" as="style" href="../css/style.css">
+  <link rel="preload" as="script" href="../js/index.js">
+  <link rel="icon" type="image/svg" href="../assets/favicon.svg">
+  <link rel="author" href="../humans.txt">
+  <link rel="apple-touch-icon" href="../assets/favicon.svg">
+  <link rel="stylesheet" href="../css/forms.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,600;1,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <title>Alina.app | Contacto</title>
+</head>
+
+<body>
+  <header class="header">
+    <nav class="nav-header">
+      <a class="title" href="../">Alina</a>
+      <button class="btn-menu flex f-dir-col jc-s-start" type="button">
+        <span class="material-symbols-outlined icon-menu">
+          menu
+        </span>
+      </button>
+      <section class="desktop-menu">
+        <a id="add-a-song">Añade una Canción</a>
+        <a href="../acerca/">Acerca </a>
+        <a href="../contacto/">Contacto </a>
+      </section>
+    </nav>
+    <div id="menu-hidden" class="menu-hidden">
+      <section class="menu-screen"></section>
+      <section id="menu" class="menu">
+        <button class="btn-menu flex f-dir-col jc-s-start" type="button">
+          <span class="material-symbols-outlined icon-menu">
+            close
+          </span>
+        </button>
+        <article class=" item-menu m-top-2r"><a id="download-app">Descarga la App <span
+              class="material-symbols-outlined menu-icon" id="download-app">
+              download
+            </span></a></article>
+        <article class="item-menu"><a id="add-a-song">Añade una Canción <span
+              class="material-symbols-outlined menu-icon" id="add-a-song">
+              library_add
+            </span></a></article>
+        <article class="item-menu"><a href="../acerca/">Acerca <span class="material-symbols-outlined menu-icon">
+              info
+            </span></a></article>
+        <article class="item-menu"><a href="../contacto/">Contacto <span class="material-symbols-outlined menu-icon">
+              chat
+            </span></a></article>
+      </section>
+    </div>
+  </header>
+  <main class="main p-1r ">
+    <section class="main-x max-w-480">
+      <h2 class="welcome-text p-0">¡Envíanos tus comentarios!</h2>
+      <form action="https://formsubmit.co/josue19cuevas99@gmail.com" method="POST" class="contact-form m-top-2r">
+        <label class="input">
+          <input type="text" name="name" title="El nombre solo acepta letras y espacios"
+            pattern="^[A-Z,a-z,ÑñÁáÉéÍíÓóÚúÜü\s]+$" required autocomplete="off">
+          <span class="name"><span>Nombre</span></span>
+        </label>
+        <label class="input m-top-2r">
+          <input type="text" name="email" title="e-mail incorrecto"
+            pattern="^[A-Za-z0-9]+(\.[A-Za-z0-9]+|-[A-Za-z0-9]+|_[A-Za-z0-9]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9-]+)*(\.[A-Za-z]{2,15})$"
+            required autocomplete="off">
+          <span class="email"><span>e-mail</span></span>
+        </label>
+        <textarea class="radius-10px" name="comments" cols="30" rows="10" placeholder="Escribe tus comentarios..."
+          data-pattern="^.{1,255}" title="Tu comentario no debe exceder los 255 Caracteres" required>
+          </textarea>
+        <button class="btn-submit bg-third-color m-top-1r" type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+  <script src="../js/index.js" type="module"></script>
+</body>
+
+</html>
