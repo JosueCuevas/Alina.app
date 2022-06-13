@@ -1,1 +1,5 @@
 User-agent: *
+
+Allow: ./acerca/
+Allow: ./contacto/
+Disallow: ./404/404.html
