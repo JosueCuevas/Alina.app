@@ -1,14 +1,12 @@
-import { renderAnswer } from "../components/render-answer.js";
+import { controlAnswer } from "../components/control-answers.js";
 
 export function formSubmit() {
   const d = document,
     $formSong = "#form-song",
-    $formContact = d.getElementById("#"),
     $loader = d.getElementById("loader");
 
   d.addEventListener("submit", async (e) => {
     if (e.target.matches($formSong)) {
-      e.preventDefault();
       e.preventDefault();
 
       try {
@@ -26,7 +24,7 @@ export function formSubmit() {
           artistData = await artistAnswer.json(),
           songData = await songAnswer.json();
 
-        renderAnswer({ artistData, songData, $artist, $song });
+        controlAnswer({ artistData, songData, $artist, $song });
       } catch (error) {}
     }
   });

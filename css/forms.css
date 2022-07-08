@@ -124,8 +124,8 @@
 
 .contact-form textarea {
   width: 100%;
-  /* height: auto; */
   margin-top: 2rem;
+  padding: 1rem;
   border: thin solid var(--text-color);
   text-indent: 4px;
   font-weight: bold;

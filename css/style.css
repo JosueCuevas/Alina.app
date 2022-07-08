@@ -244,7 +244,9 @@ img {
 .third-color {
   color: var(--border-color);
 }
-
+.w-1_5r {
+  width: 1.5rem !important;
+}
 .w-25vw {
   width: 25vw !important;
 }
@@ -276,6 +278,15 @@ img {
 }
 .desktop-menu {
   display: none;
+}
+.en-version {
+  position: relative;
+  right: 2rem;
+  width: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: var(--text-color);
 }
 .icon-menu {
   width: 2rem;
