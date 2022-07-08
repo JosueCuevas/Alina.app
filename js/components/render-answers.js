@@ -49,9 +49,9 @@ export function artistSuccess(artist) {
       artist.strArtist
     }">
       <p>
-        ${
-          artist.intBornYear || "Artist's born year not found in the database"
-        } - ${artist.intDiedYear || "Present"}
+        ${artist.intBornYear || "Artist's born year not found"} - ${
+      artist.intDiedYear || "Present"
+    }
       </p>
       <p>${artist.strCountry || ""}</p>
       <p>${artist.strGenre || ""} - ${artist.strStyle || ""}</p>
