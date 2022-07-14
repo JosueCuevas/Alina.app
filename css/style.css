@@ -461,6 +461,7 @@ img {
 /*--about page styles  */
 .about cite {
   position: relative;
+  margin-top: 2rem;
   display: block;
   font-style: normal;
   font-size: var(--step--3);
