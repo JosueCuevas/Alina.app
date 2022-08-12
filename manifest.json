@@ -1,0 +1,64 @@
+{
+  "name": "Alina.app",
+  "short_name": "Alina",
+  "description": "Una web app desarrollada para facilitar la búsqueda de la letra de tus canciones favoritas de una manera rápida, sencilla y cómoda. Al mismo tiempo este software te brinda información adicional sobre el artista que estás buscando !Todo en un mismo sitio!",
+  "background_color": "#a01c32",
+  "theme_color": "#000",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": "./?utm_source=web_app_manifest",
+  "scope": "./",
+  "lang": "es-MX",
+  "icons": [
+    {
+      "src": "./assets/images/logo-1024px.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/images/logo-512px.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/images/logo-384px.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/images/logo-256px.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/images/logo-192px.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/images/logo-128px.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/images/logo-96px.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/images/logo-64px.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/images/logo-32px.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/images/favicon.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    }
+  ]
+}
